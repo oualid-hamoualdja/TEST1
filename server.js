@@ -99,6 +99,4 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
  console.info(` Serveur démarré sur http://localhost:${PORT}`);
-});
-
-
+ });
